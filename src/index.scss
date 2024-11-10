@@ -1,0 +1,21 @@
+html, body {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    text-align: center;
+
+    background-color: #002b41;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

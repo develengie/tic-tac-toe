@@ -1,0 +1,19 @@
+.square {
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+
+    background-color: #003855;
+    background-size: cover;
+    border: 3px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &.circle {
+        background: url('../../assets/circle.png') center no-repeat;
+    }
+
+    &.cross {
+        background: url('../../assets/cross.png') center no-repeat;
+    }
+}
